@@ -1,7 +1,9 @@
 a) Descripción del problema que estás modelando
+
 La conexiones peatonales y transporte “rápido” que existe entre 6 puntos en mi colonia, con el objetivo de mapear y analizar la accesibilidad y sus posibles rutas.
 
 b) Qué representa cada vértice
+
 Los vértices (6 en total) representan los siguientes lugares o puntos clave:
 •	Casa
 •	ParadaCamion (Parada de Autobús)
@@ -11,6 +13,7 @@ Los vértices (6 en total) representan los siguientes lugares o puntos clave:
 •	Oxxo (Tienda de conveniencia)
 
 c) Qué representa cada arista
+
 Las aristas representan un camino directo entre dos lugares
 Las aristas son: 
 Casa a ParadaCamion
@@ -24,6 +27,7 @@ Oxxo a AlbercaCE
 d) Diagrama del grafo
  
 e) Análisis: grados, conexidad, ciclos si existen
+
 | Vértice   | Grado  | Significado en el contexto |
 |----------|----------|--------|
 | Casa   | 3  | Lugar con alta accesibilidad a otros 3 puntos.  |
@@ -38,7 +42,8 @@ Si existen 2 ciclos, los cuales son:
 Ciclo Corto (4 vértices): AlbercaCE  Oxxo a Smart  TiendaSara  Casa AlbercaCE
 Ciclo Largo (6 vértices): Casa   TiendaSara  Smart  Oxxo  AlbercaCE   ParadaCamion  Casa
 
-f) Una pregunta interesante que puedas responder con tu grafo
+f) Una pregunta interesante que puedas responder con tu grafo: 
+
 Si se cierra temporalmente el camino entre Casa y AlbercaCE por obras públicas, ¿Cuántas alternativas quedan para ir de la Casa a la AlbercaCE, y cuál seria la ruta más larga?
 Conexiones Alternativas (Caminos):
 •	Ruta 1 (3 pasos): Casa a ParadaCamion a AlbercaCE
