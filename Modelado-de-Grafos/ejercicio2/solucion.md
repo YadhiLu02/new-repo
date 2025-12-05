@@ -10,19 +10,22 @@ a)	Dibuja el grafo de la red
 b)	¿Cuántos vértices y aristas tiene?
 vértices (Nodos): 10 (Router,Servidor,Switch1,Switch2,PC1,PC2,Impresora1,PC3,PC4,Impresora2).
 Aristas (conexiones): 9.
-Router  Servidor (1)
-Router  Switch1 (2)
-Router  Switch2 (3)
-Switch1  PC1 (4)
-Switch1  PC2 (5)
-Switch1  Impresora1 (6)
-Switch2  PC3 (7)
-Switch2  PC4 (8)
-Switch2  Impresora2 (9)
+- Router  Servidor (1)
+- Router  Switch1 (2)
+- Router  Switch2 (3)
+- Switch1  PC1 (4)
+- Switch1  PC2 (5)
+- Switch1  Impresora1 (6)
+- Switch2  PC3 (7)
+- Switch2  PC4 (8)
+- Switch2  Impresora2 (9)
+
 c)	¿Es conexo? ¿Qué significa esto para la red?
 Si, el grafo es conexo, y significa que existe un camino entre cualquier par de dispositivos en la red, asegurando que todos los dispositivos puedan comunicarse entre sí, directa o indirectamente.
+
 d)	¿Es un árbol? Justifica
 Sí, si es un árbol, ya que cumple con las condiciones de ser conexo y acíclico.
+
 e)	Si se desconecta el Router, ¿cuántas componentes conexas quedan?
 Si eliminamos el Router (y sus aristas), el grafo se divide en varias partes aisladas. Quedan 3 componentes conexas:
 El Servidor (aislado).
