@@ -1,5 +1,15 @@
 EJERCICIO 1 (35 puntos): SISTEMA DE VUELOS
 Una aerolínea tiene los siguientes vuelos (solo ida):
+
+| Origen   | Destino  | Precio |
+|----------|----------|--------|
+| México   | Cancún   | $1500  |
+| México   | Monterrey| $1200  |
+| Cancún   | Miami    | $3500  |
+| Monterrey| Houston  | $2800  |
+| Houston  | Miami    | $1800  |
+| Miami    | México   | $4000  |
+
 a)	Dibuja el grafo (con flechas y precios)
 
 b)	¿Es dirigido o no dirigido? ¿Es ponderado?
@@ -8,11 +18,11 @@ Si es ponderado, porque cada arista tiene un valor asociado, que viene siendo el
 
 c)	Calcula el grado de entrada y salida de cada ciudad
 Ciudad    	Grado de Salida (Vuelos que salen)	Grado de Entrada (Vuelos que llegan)
-México	2 (a Cancún, a Monterrey)          	1 (de Miami)                        
-Cancún	1 (a Miami)                        	1 (de México)                        
-Monterrey	1 (a Houston)                    	1 (de México)                        
-Miami  	1 (a México)                      	2 (de Cancún, de Houston)            
-Houston	1 (a Miami)                        	1 (de Monterrey)    
+México	     2 (a Cancún, a Monterrey)          	1 (de Miami)                        
+Cancún	     1 (a Miami)                        	1 (de México)                        
+Monterrey   	1 (a Houston)                    	1 (de México)                        
+Miami       	1 (a México)                      	2 (de Cancún, de Houston)            
+Houston	      1 (a Miami)                        	1 (de Monterrey)    
 
 d)	¿Cuál ciudad tiene más vuelos salientes?
 La ciudad con más vuelos salientes es México, con 2 vuelos.
