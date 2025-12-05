@@ -7,6 +7,7 @@ Una oficina tiene la siguiente red:
 - El Servidor conecta con: Router (ya mencionado)
 
 a)	Dibuja el grafo de la red
+
 b)	¿Cuántos vértices y aristas tiene?
 vértices (Nodos): 10 (Router,Servidor,Switch1,Switch2,PC1,PC2,Impresora1,PC3,PC4,Impresora2).
 Aristas (conexiones): 9.
