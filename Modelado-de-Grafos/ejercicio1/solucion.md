@@ -17,12 +17,12 @@ Es dirigido porque los vuelos son de solo ida.
 Si es ponderado, porque cada arista tiene un valor asociado, que viene siendo el precio del vuelo.
 
 c)	Calcula el grado de entrada y salida de cada ciudad
-Ciudad    	Grado de Salida (Vuelos que salen)	Grado de Entrada (Vuelos que llegan)
-México	     2 (a Cancún, a Monterrey)          	1 (de Miami)                        
-Cancún	     1 (a Miami)                        	1 (de México)                        
-Monterrey   	1 (a Houston)                    	1 (de México)                        
-Miami       	1 (a México)                      	2 (de Cancún, de Houston)            
-Houston	      1 (a Miami)                        	1 (de Monterrey)    
+Ciudad    ,Grado de Salida (Vuelos que salen),Grado de Entrada (Vuelos que llegan)
+México,"2 (a Cancún, a Monterrey)          ",1 (de Miami)                        
+Cancún,1 (a Miami)                        ,1 (de México)                        
+Monterrey,1 (a Houston)                    ,1 (de México)                        
+Miami  ,1 (a México)                      ,"2 (de Cancún, de Houston)            "
+Houston,1 (a Miami)                        ,1 (de Monterrey)                      
 
 d)	¿Cuál ciudad tiene más vuelos salientes?
 La ciudad con más vuelos salientes es México, con 2 vuelos.
